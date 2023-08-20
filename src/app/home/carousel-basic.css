@@ -1,0 +1,12 @@
+
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('src\assets\Images\honey-bees-337695_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+ 

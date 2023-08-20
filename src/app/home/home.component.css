@@ -1,0 +1,120 @@
+
+
+.imagecss {  
+
+width : 100%;
+height: 20%
+
+}
+.conteneur {
+  display:inline-block;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2; /* Couleur de fond */
+  background-image: linear-gradient(to bottom, #f2f2f2, #e0e0e0); /* Dégradé vertical */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ensemble {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ensemble:nth-child(2) {
+  margin-top: 20px;
+}
+
+.image-gauche, .image-droite {
+  margin-right: 10px;
+  width: 50%;
+  height: auto;
+}
+
+.texte-droite {
+margin-left: auto;
+justify-content: right;
+}
+.texte-gauche{
+  float:right;
+}
+
+.image-gauche img, .image-droite img {
+  max-width: 100%;
+}
+
+h3, p {
+  margin: 0;
+}
+
+  /* Animation pour le texte */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  
+  .text-sympa.animated {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .grosTitre{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 36px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #6c7279;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Ajoutez cette ligne */
+}
+.placement-gros-titre{
+ display: flex;
+}
+  
+  .element {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #f3080800;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .ensemble-image-texte{
+    display: flex;
+  
+  }
+
+  .text-droit-position{
+    margin-left: auto;
+   height: -500px;
+  }

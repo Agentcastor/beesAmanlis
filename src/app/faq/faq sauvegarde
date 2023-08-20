@@ -1,0 +1,68 @@
+
+<ol class="test">
+    <li>
+        <div class="dropdown">
+            <button class="bloc-top"></button>
+            <span>Les produits sont-ils BIO ?</span>
+            <div class="reponse">
+                <p>Non, nous ne possedons pas le label BIO</p>
+            </div>
+        </div>
+    </li>
+<li> 
+    <li>
+        <div class="dropdown">
+            <button class="bloc-top"></button>
+            <span>Comment cela se passe après ma commande</span>
+            <img src="">
+            <div class="reponse">
+                <p>Cela va dépendre de si vous avez prit la livraison ou non. Si vous avez prit la livraison, votre commande sera envoyé le plus tôt possible.
+                    <br> Si vous n'avez pas prit de livraison, vous pouvez voir avec nous par sms ou par mail pour savoir quand vous pouvez venir chercher votre achat.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="dropdown">
+            <button class="bloc-top"></button>
+            <span>Vais-je recevoir une facture après ma commande ?</span>
+            <img src="">
+            <div class="reponse">
+                <p>>Vous allez recevoir une facture par mail, sur le mail que vous avez fournit sur votre compte</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="dropdown">
+            <button class="bloc-top"></button>
+            <span>Vais-je recevoir une facture après ma commande ?</span>
+            <img src="">
+            <div class="reponse">
+                <p>>Vous allez recevoir une facture par mail, sur le mail que vous avez fournit sur votre compte</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="dropdown">
+            <button class="bloc-top"></button>
+            <span> Quelles sont les modes de paiement accepté ?</span>
+            <img src="">
+            <div class="reponse">
+                <p>>Il est possible de payer directement (virement, espèce) sur place si vous ne prenez pas la livraison lors de votre commande.
+                    Sur le site, il est possible de payer par carte bancaire uniquement.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="dropdown">
+            <button class="bloc-top"></button>
+            <span> Les paiements sont-ils sécurisés</span>
+            <img src="">
+            <div class="reponse">
+                <p>>Le paiement est assuré par notre banque Crédit mutuelle de Bretagne</p>
+            </div>
+        </div>
+    </li>
+<li>
+</li>
+
+</ol>

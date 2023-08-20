@@ -1,0 +1,48 @@
+
+<link rel="stylesheet" href="navbar.component.css">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" [routerLink]="['/Home']">BeesAmanlis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/']" > Accueil </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/boutique']">nos miels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/faq']">FAQ</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/processus']">Le monde des abeilles</a>
+   </li>
+  
+        </ul>
+       <!--div class="logos">
+        <div class="nav-logos-placement">
+        <li class="nav-item-logo" style="list-style-type: none; margin-right: 30px;">
+          
+          <a class="nav-link-logo" [routerLink]="['']"> 
+            <img src="\assets\Images\shopping.png" class="img-nav2">
+          </a>
+        </li>
+        <li class="nav-item-logo" style="list-style-type: none; ">
+          <a class="nav-link-logo" [routerLink]="['/compte']">
+            <img src="\assets\Images\61205.png" class="img-nav">
+          </a>
+        </li>
+      </div>
+    </div-->
+    
+        <!--form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form-->
+      </div>
+    </div>
+  </nav>
+  

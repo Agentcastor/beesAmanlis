@@ -1,0 +1,80 @@
+.CSSMiel {
+  width: 50%;
+  height: 75%;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  
+}
+
+.imageMiel {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.Nom-Miel-div {
+  position: relative;
+  float: right;
+  top: 25px;
+  right: 25%;
+  transform: translateY(-50%);
+}
+
+.Nom-Miel {
+  /* taille */
+  font-size: 24px;
+  /* épaisseur (gras) */
+  font-weight: bold;
+  color: #ffa500; /* Couleur orange */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre légère */
+}
+
+.petite-presentation {
+  width: 60%;
+  height: 45%;
+  float: right;
+  margin-top: 25px; /* Ajustez cette valeur pour l'espacement entre le .Nom-Miel et la .petite-presentation */
+  margin-left: 70%; /* Ajustez cette valeur pour l'espacement entre la .petite-presentation et le bord droit */
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.titre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titre_savoir_plus {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.texte_savoir_plus {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+.button_for_quantity{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 50%;
+  margin-left: 15px;
+}
+.button_cart {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}

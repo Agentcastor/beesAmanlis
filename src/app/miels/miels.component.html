@@ -1,0 +1,58 @@
+<div class="CSSMiel">
+  <div class="imgageMiel">
+    <div *ngIf="id === '1'">
+      <img src=".\assets\Images\miel-blanc-2.jpg" alt="miel-printemps" />
+    </div>
+    <!--Pour miel 2-->
+    <div *ngIf="id === '2'">
+      <img src=".\assets\Images\juillet-2022" alt="miel-juillet2022" />
+    </div>
+    <!--Pour miel 3-->
+    <div *ngIf="id === '3'">
+      <img src=".\assets\Images\aout-2022-1.jpg" alt="miel-aout" />
+    </div>
+  </div>
+
+  <!--Pour miel 1-->
+  <div class="Nom-Miel-div">
+    <div *ngIf="id === '1'">
+      <h2 class="Nom-Miel">Miel de Printemps</h2>
+    </div>
+    <!--Pour miel 2-->
+    <div *ngIf="id === '2'">
+      <h2 class="Nom-Miel">Miel d'été (Juillet)</h2>
+    </div>
+    <!--Pour miel 3-->
+    <div *ngIf="id === '3'">
+      <h2 class="Nom-Miel">Miel d'été (Aout)</h2>
+    </div>
+  </div>
+  <div class="petite-presentation">
+    <div class="titre">
+      <h3 class="titre_savoir_plus">En savoir plus</h3>
+    </div>
+    <div>
+      <p class="texte_savoir_plus">
+        Le miel de Printemps est un miel recolté a la fin du Printemps, à cette
+        période on peut retrouver du colza, obépine... <br />
+        Les abeilles ne recoltant pas les même fleurs que en été, le gout n'est
+        pas le même que celui d'été.<br />
+        Le miel de printemps a des bienfaits naturels, c'est une source
+        d'énergie car il est riche en glucide naturels.
+        <br />Mais aussi soulage les maux de gorge, aide a la digestion ou
+        encore des porpiétés antioxydante <br />
+        Il peut se conserver pendant 2 ans
+      </p>
+    </div>
+  </div>
+  <div class="button_for_quantity">
+    <button type="button" (click)="minus()"></button>
+    <input type="text" [value]="quantity" />
+    <button type="button" (click)="plus()"><i class="fa fa-plus"></i></button>
+    <button class="button_cart">Ajouter au panier</button>
+  </div>
+</div>
+
+<!--Maintenant que l'on ajouter l'objet a la boutique-->
+<!--Il faut faire sa propre page-->
+<!--ajouter au endroit ou il y a *ngIf, ajouter une nouvelle catégorie avec l'ID choisie, et y mettre la nouvelle image et texte.-->

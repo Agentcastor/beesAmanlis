@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objets à vendre</title>
+    <style>
+      .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: #6c7279;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      .item img {
+        width: 250px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      .item .info {
+        font-size: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      .item .name {
+        font-weight: bold;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+      }
+
+      .item .price {
+        color: green;
+      }
+      .titre-market {
+        text-align: center;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color: #6c7279;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 0 auto; /* Centre horizontalement la division */
+      }
+      .lien {
+        display: inline-block;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex;">
+    <h1 class="titre-market">Les miels</h1>
+    </div>
+    <div
+      style="
+        max-width: 1024px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        border: 2px solid;
+        border-image: linear-gradient(to right, #686666, #a4a7a4);
+        border-image-slice: 1;
+        background: linear-gradient(to bottom, #686666, #a4a7a4);
+      "
+    >
+      <div class="item">
+        <a [routerLink]="['/miel/1']" class="lien">
+          <img src=".\assets\Images\miel-blanc-2.jpg" alt="Objet 1" />
+          <div class="info">
+            <div class="name">Miel de printemps</div>
+            <div class="price"></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a [routerLink]="['/miel/2']" class="lien">
+          <img src=".\assets\Images\juillet-2022.jpg" alt="Objet 2" />
+          <div class="info">
+            <div class="name">Miel d'été (juin 2022)</div>
+            <div class="price"></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a [routerLink]="['/miel/3']" class="lien">
+          <img src=".\assets\Images\aout-2022-1.jpg" alt="Objet 3" />
+          <div class="info">
+            <div class="name">Miel d'été (Aout 2022)</div>
+            <div class="price"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>
+
+<!--Pour Ajouter un Produit, c'est simple-->
+<!--Il suffit d'ajouter simplement a nouveau tous ce qui est dans la borne Item-->
+<!--Puis de changer l'index du routerlink-->
+<!--Mettre la nouvelle image,nom et prix-->
+<!--Après on passe dans le composant miels-->
